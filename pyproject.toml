@@ -1,0 +1,47 @@
+[tool.poetry]
+name = "copitest-core"
+version = "0.1.0"
+description = ""
+authors = ["Arphew Ng <kmthach.ai@gmail.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.15"
+fastapi = {extras = ["standard"], version = "^0.115.12"}
+pymongo = "^4.10.1"
+tqdm = "^4.67.1"
+praw = "^7.8.1"
+google-genai = "^0.3.0"
+pillow = "^11.0.0"
+bs4 = "^0.0.2"
+toolz = "^1.0.0"
+bcrypt = "^4.2.1"
+pyjwt = "^2.10.1"
+python-dotenv = "^1.0.1"
+zstandard = "^0.23.0"
+pandas = "^2.2.3"
+playwright = "^1.49.1"
+markdownify = "^0.14.1"
+aiohttp = "^3.11.11"
+langgraph = "^0.3.20"
+celery = "^5.4.0"
+redis = "^5.2.1"
+watchdog = "^6.0.0"
+schedule = "^1.2.2"
+ipykernel = "^6.29.5"
+langchain-community = "^0.3.21"
+nanoid = "^2.0.0"
+apscheduler = "^3.11.0"
+motor = "^3.7.0"
+jira = "^3.8.0"
+playwright-stealth = "^2.0.0"
+opencv-python = "^4.12.0.88"
+langchain-google-genai = "^2.1.8"
+openai = "^1.97.1"
+pyuploadcare = "^6.2.0"
+boto3 = "^1.40.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
